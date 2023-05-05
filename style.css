@@ -1,0 +1,80 @@
+/*this is css code*/
+#moving-text {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: rgb(58, 26, 162);}
+
+
+body {
+font-family:  Georgia, 'Times New Roman', Times, serif, serif, serif, bold;
+font-size: 16px;
+line-height: 1.5;
+background-color: #ffffff;
+
+}
+
+body {
+background-image: url(Types-of-Makeup-Every-Makeup-Lover-Should-Know.jpg);
+background-size: cover;
+}
+
+header {
+background-color: #000000;
+color: #7ea2d8b3;
+padding: 20px;
+text-align: center;
+
+}
+h1 {
+margin: 0;
+font-size: 36px;
+}
+nav ul {
+list-style: upper-roman;
+margin: 0;
+padding: 0;
+transform: (0deg);
+}
+nav li {
+display: inline-block;
+margin-right: 20px;
+}
+nav a {
+color: #a58585;
+text-decoration: underline;
+}
+nav a:hover {
+text-decoration: underline;
+}
+section {
+padding: 80px;
+margin: 80px ;
+background-color: #c88383;
+border: 1px solid #ba40ae;
+}
+h2 {
+margin-top: 0;
+}
+ul {
+list-style: square;
+margin: 0;
+padding: 0;
+font-weight: bold;
+font-style: italic;
+}
+li a {
+color: #73a6c8;
+text-decoration: none;
+}
+li a:hover {
+text-decoration: initial;
+}
+footer {
+background-color: #000000;
+color: #7ea2d8b3;
+padding: 20px;
+text-align: center;
+}

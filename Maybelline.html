@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+   <html>
+     <head>
+      <link rel=" stylesheet"
+  href="style.css">
+       <title>makeup</title>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+
+     </head>
+     <body>
+       <header>
+    
+         <nav>
+          
+       <header>
+         <h1>Maybelline</h1>
+         <nav>
+           <ul>
+             <li><a href="#Types of Makeup">Types of Makeup</a></li>
+             <li><a href="# Famous Brands"> Famous Brands</a></li>
+             <li><a href="# Maybelline History">Maybelline History</a></li>
+          
+           </ul>
+         </nav>
+      
+           </ul>
+         </nav>
+       </header>
+
+       
+       <main>
+      
+         <section id="Types of Makeup">
+           <h2>Types of Makeup</h2>
+           <p><strong>Makeup </strong>>is such a deep-rooted beauty concept.<br>
+             From the times of emperors and kings to the democratic world of today,<br>
+              makeup has been omnipresent.<br>
+               From being a thing only for women,
+                to now a gender-neutral concept,<br>
+                 makeup has given so many the confidence and the power to express themselves,
+                  in any and every way.<br>
+                there many types of makeup such as:</p>
+           <ul>
+             <li>Foundation</li>
+             <li>Concealer</li>
+             <li>Blush</li>
+             <li>Eye Shadow</li>
+             <li>Mascara</li>
+             <li>Lipstick</li>
+           </ul>
+          </section>
+         
+         <section id="Famous Brands">
+           <h2> Famous Brands</h2>
+           <p>there are many famous brands makeup in world  the most of them are :</p>
+           <ul>
+             <li>Maybelline</li>
+             <li>Rimmel</li>
+             <li>Bourjois</li>
+             <li>Loreal</li>
+             <li>Max Factor</li>
+             <li>Flormar</li>
+             <li>Chanel</li>
+           
+           </ul>
+        
+         </section>
+         <section id="Maybelline History">
+           <h2> Maybelline History</h2>
+           <p>
+           <strong> Maybelline</strong> New York was born with a spark<strong> in 1917</strong>
+             <br>when Mabel Williams singed her lashes in a cooking fire— 
+           <br>and turned disaster into opportunity by mixing the ashes with Vaseline to create a mascara product for all.
+            100 years later, that Maybelline spirit lives on, in the spark and spirit of New York.<br>
+            Every product we make lives up to our values: Diverse. Hardworking. No-hassle. On the pulse.<br>
+             We create makeup that brings the fashion sensibility and pulse of New York City to the world.  
+            This vision has propelled us to become the number one global makeup brand in over 120 countries. As our global community continues to grow, we are committed to helping everyone,<br>
+             everywhere look -- and feel -- ready to take on their world.
+          </p>
+         </section>
+        
+             
+       </main>
+       <footer>
+         <p>Copyright &copy;  Maybelline</p>
+       </footer>
+       <script src="script.js"></script>
+     <div id="moving-text">May be she's born with it
+        May be it's Maybelline</div>
+	<script>
+		var text = document.getElementById("moving-text");
+		var position = 0;
+		var interval = setInterval(moveText, 10);
+
+		function moveText() {
+			position += 1;
+			text.style.left = position + "px";
+			if (position >= 500) {
+				clearInterval(interval);
+				setTimeout(function() {
+					text.style.left = "0px";
+					position = 0;
+					interval = setInterval(moveText, 10);
+				}, 1000);
+			}
+		}
+	</script>
+
+
+
+     
+       
+      
+      
+     </body>
+   </html>
